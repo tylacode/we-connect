@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Job Vacancies</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>We Connect</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#jobApplication-portal">Find A Job</a></li>
+          <li><a class="nav-link scrollto" href="#employerPortal">Post A Job</a></li>
+          <li><a class="nav-link scrollto" href="#articles">Resources</a></li>
+          <li class="dropdown"><a href="#"><span>My Account</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Employer Login</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>-->
+              <li><a href="#">Job Seeker Login</a></li>
+            </ul>
+          </li>
+          <!-- <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <strong>Column 1</strong>
+                <a href="#">Column 1 link 1</a>
+                <a href="#">Column 1 link 2</a>
+                <a href="#">Column 1 link 3</a>
+              </li>
+              <li>
+                <strong>Column 2</strong>
+                <a href="#">Column 2 link 1</a>
+                <a href="#">Column 2 link 2</a>
+                <a href="#">Column 3 link 3</a>
+              </li>
+              <li>
+                <strong>Column 3</strong>
+                <a href="#">Column 3 link 1</a>
+                <a href="#">Column 3 link 2</a>
+                <a href="#">Column 3 link 3</a>
+              </li>
+              <li>
+                <strong>Column 4</strong>
+                <a href="#">Column 4 link 1</a>
+                <a href="#">Column 4 link 2</a>
+                <a href="#">Column 4 link 3</a>
+              </li>
+              <li>
+                <strong>Column 5</strong>
+                <a href="#">Column 5 link 1</a>
+                <a href="#">Column 5 link 2</a>
+                <a href="#">Column 5 link 3</a>
+              </li>
+            </ul>
+          </li> -->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- Hero section -->
+    <section id="hero" class="row job-hero" style="display: flex;flex-direction: row;justify-content: flex-end;
+    align-items: center;padding: 0;margin: 0;
+    background: linear-gradient(rgba(20, 39, 37, 0.5), rgba(20, 39, 37, 0.2)),
+    url(./assets/img/job\ p\ bg.jpg);background-size: cover;">
+
+      <div class="hero-container" style="width: 50%;" data-aos="fade-up">
+        <h1></h1>
+        <h2>Find your dream international job.</h2>
+        <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+      </div>
+
+      <div class="containerHero" style="justify-self: flex-end;width: 50%;">
+        <div class="header" style="display: flex;flex-direction: column;justify-content: center;align-items: center;
+        background-image: url(./assets/img/form\ bg\ \(2\).jpg);background-repeat: no-repeat;background-size: cover;">
+            <div class="welcome-message">
+                <p>
+                    <span class="welcome-message" style="font-weight: 600;">Sign Up</span>
+                </p>
+            </div>
+            <div class="form-container">
+                <form data-qa-id="signup-email-form" novalidate="">
+                    <div class="button-group" style="display: flex; flex-direction: column; gap: 7px; margin-bottom: 30px;">
+                        <button class="oauth-button" data-qa-id="google-oauth" type="button">
+                            <img src="./assets/img/google.svg" width="20" height="20" alt="Google">Continue with Google
+                        </button>
+                        <button class="oauth-button" data-qa-id="facebook-oauth" type="button">
+                            <img src="./assets/img/facebook-new.svg" width="20" height="20" alt="Facebook">Continue with Facebook
+                        </button>
+                        <button class="oauth-button" data-qa-id="apple-oauth" type="button">
+                            <img src="./assets/img/apple.svg" width="20" height="20" alt="Apple">Continue with Apple
+                        </button>
+                    </div>
+                    <div class="email-input-container" style="position: relative; width: 100%;">
+                        <label for="signup-email-form-email" id="signup-email-form-email-label" class="email-label" style="color: black;">Or use your email:</label>
+                        <div>
+                            <div class="input-wrapper">
+                                <input aria-invalid="false" data-qa-id="signup-email-form-email" id="input-email" name="email" placeholder="casey.smith@example.com" type="email" class="email-input" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-button-container">
+                        <button class="submit-button primary large full-width" data-qa-id="signup-email-form-submit-button" type="submit" data-qa-submitting="false">
+                            <div style="position: relative;">
+                                <div class="button-text">Continue</div>
+                                <div class="loading-indicator">
+                                    <div aria-label="Submitting" class="loading-spinner">
+                                        <div class="spinner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    </section><!-- End Hero -->
+
+
+    <!-- Job Vacancy Cards -->
+    <section id="jobApplication-portal" class="inner-page row">
+
+      <!-- ======= Breadcrumbs Section ======= -->
+        <section class="breadcrumbs" style="margin-bottom: 3%;">
+          <div class="container">
+            <div class="d-flex justify-content-between align-items-center" style="margin: 3%;">
+              <h2>Find Your Dream Job</h2>
+              <p>Explore our endless list of international job opportunities. Apply Today!!!</p>
+              <ol>
+                <li><a href="index.html">Home</a></li>
+                <li>Job Vacancies</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+      <!-- End Breadcrumbs Section -->
+
+      <div class="container" style="backgrond-color: aquamarine;">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+              <div class="col-3">
+                  <h4>Filters</h4>
+                  <div>
+                    <label>Sort By</label>
+                    <select class="form-control">
+                      <option>Newest</option>
+                      <option>Oldest</option>
+                    </select>
+                  </div>
+                  <div>
+                      <label>Job Type</label>
+                      <select class="form-control">
+                          <option>Full Time</option>
+                          <option>Part Time</option>
+                          <option>Contract</option>
+                      </select>
+                  </div>
+                  <div>
+                      <label>Salary Range</label>
+                      <input type="range" class="form-control">
+                  </div>
+                  <div>
+                      <label>Experience Level</label>
+                      <select class="form-control">
+                          <option>Freshman</option>
+                          <option>1 Year</option>
+                          <option>2 Years</option>
+                      </select>
+                  </div>
+                  <div>
+                      <label>Career Level</label>
+                      <select class="form-control">
+                          <option>Manager</option>
+                          <option>Student</option>
+                          <option>Executive</option>
+                      </select>
+                  </div>                  
+                  
+              </div>
+  
+        <div class="col-9">
+          <div class="job-card card mb-3">
+            <div class="card-body">
+
+              <div class="instituteBrand" style="display: flex;flex-direction: row;align-items: center;">
+                <img src="/assets/img/section-title-bg.png" alt="Company Logo" class="float-left mr-3" style="width: 50px;">
+                <h5 class="card-title">Company Name</h5>
+              </div>
+
+              <h4 style="margin-top: 2%;">Job Title</h4>
+              <p class="card-text">Brief description of the job.</p>
+              <div class="btn btn-primary">
+                <img src="./assets/img/briefcase.svg" height="20px" alt="briefcase">
+                Full Time
+              </div>
+
+              <div class="btn btn-primary">
+                <img src="./assets/img/location.svg" height="20px" alt="location">
+                Location
+              </div>
+
+              <div class="btn btn-primary">
+                <img src="./assets/img/money.svg" height="20px" alt="money">
+                Salary Range
+              </div>
+              
+              <div class="call-to-action" style="display: flex;flex-direction: row;justify-content: space-between;margin-top: 3%;align-items: center;">
+                <p class="mt-2">Days left: 5</p>
+                <div class="call-to-action-button">
+                  <button class="btn btn-info">Apply Now</button>
+                  <button class="btn btn-info">Visit Page</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-card card mb-3">
+            <div class="card-body">
+              <div class="instituteBrand" style="display: flex;flex-direction: row;align-items: center;">
+                <img src="/assets/img/section-title-bg.png" alt="Company Logo" class="float-left mr-3" style="width: 50px;">
+                <h5 class="card-title">Company Name</h5>
+              </div>
+              <h4 style="margin-top: 2%;">Job Title</h4>
+              <p class="card-text">Brief description of the job.</p>
+              <div class="btn btn-primary">
+                <img src="./assets/img/briefcase.svg" height="20px" alt="briefcase">
+                Full Time
+              </div>
+              <div class="btn btn-primary">
+                <img src="./assets/img/location.svg" height="20px" alt="location">
+                Location
+              </div>
+              <div class="btn btn-primary">
+                <img src="./assets/img/money.svg" height="20px" alt="money">
+                Salary Range
+              </div>
+              
+              <div class="call-to-action" style="display: flex;flex-direction: row;justify-content: space-between;margin-top: 3%;align-items: center;">
+                <p class="mt-2">Days left: 5</p>
+                <div class="call-to-action-button">
+                  <button class="btn btn-info">Apply Now</button>
+                  <button class="btn btn-info">Visit Page</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-card card mb-3">
+            <div class="card-body">
+              <div class="instituteBrand" style="display: flex;flex-direction: row;align-items: center;">
+                <img src="/assets/img/section-title-bg.png" alt="Company Logo" class="float-left mr-3" style="width: 50px;">
+                <h5 class="card-title">Company Name</h5>
+              </div>
+              <h4 style="margin-top: 2%;">Job Title</h4>
+              <p class="card-text">Brief description of the job.</p>
+              <div class="btn btn-primary">
+                <img src="./assets/img/briefcase.svg" height="20px" alt="briefcase">
+                Full Time
+              </div>
+              <div class="btn btn-primary">
+                <img src="./assets/img/location.svg" height="20px" alt="location">
+                Location
+              </div>
+              <div class="btn btn-primary">
+                <img src="./assets/img/money.svg" height="20px" alt="money">
+                Salary Range
+              </div>
+              
+              <div class="call-to-action" style="display: flex;flex-direction: row;justify-content: space-between;margin-top: 3%;align-items: center;">
+                <p class="mt-2">Days left: 5</p>
+                <div class="call-to-action-button">
+                  <button class="btn btn-info">Apply Now</button>
+                  <button class="btn btn-info">Visit Page</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat job-card for more jobs -->
+        </div>
+
+      <!-- Modal for Job Application -->
+      <div id="jobModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Apply for Job</h4>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="surname">Surname</label>
+                    <input type="text" class="form-control" id="surname">
+                </div>
+                <div class="form-group">
+                    <label for="topic">Topic</label>
+                    <input type="text" class="form-control" id="topic">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message"></textarea>
+                </div>
+                <div class="form-group" style="display: flex;flex-direction: column;">
+                  <div class="file-upload" style="display: flex;flex-direction: column;margin: 7px 0;">
+                    <label for="file">Resume/CV</label>
+                    <input type="file" class="form-control-file" id="file">
+                  </div>
+
+                  <div class="file-upload" style="display: flex;flex-direction: column;margin: 7px 0;">
+                    <label for="file">Cover Letter</label>
+                    <input type="file" class="form-control-file" id="file">
+                  </div>
+
+                  <div class="file-upload" style="display: flex;flex-direction: column;margin: 7px 0;">
+                    <label for="file">Educational Qualifications</label>
+                    <input type="file" class="form-control-file" id="file">
+                  </div>
+
+                  <div class="file-upload" style="display: flex;flex-direction: column;margin: 7px 0;">
+                    <label for="file">Professional Certifications</label>
+                    <input type="file" class="form-control-file" id="file">
+                  </div>
+
+                  <div class="file-upload" style="display: flex;flex-direction: column;margin: 7px 0;">
+                    <label for="file">Language Poficiency Proof</label>
+                    <input type="file" class="form-control-file" id="file">
+                  </div>
+
+                  <div class="file-upload" style="display: flex;flex-direction: column;margin: 7px 0;">
+                    <label for="file">References</label>
+                    <input type="file" class="form-control-file" id="file">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+
+
+</div>
+
+      </div>
+    </section>
+
+    <section id="articles">
+      <div data-qa-id="cms-four-article-highlight" class="article-highlight">
+        <div class="highlight-header">
+          <div class="header-text">
+            <h2>The latest from our <strong>career experts</strong></h2>
+          </div>
+        </div>
+        <div class="highlight-content container" data-aos="fade-up">
+          <div data-qa-id="four-article-highlight-section-0" class="article-section">
+            <div class="article-image">
+              <a href="/en/careers/whos-hiring-make-an-impact-with-communications-and-marketing-roles" tabindex="-1" aria-label="Who’s Hiring? Make an Impact With Communications and Marketing Roles" class="article-link">
+                <img src="./assets/img/team/team-1.jpg" srcset="./assets/img/team/team-1.jpg" alt="" width="190" height="190" data-qa-id="four-article-highlight-section-image" class="article-img" loading="lazy">
+              </a>
+            </div>
+            <a href="/en/careers/whos-hiring-make-an-impact-with-communications-and-marketing-roles" class="article-link">
+              <h4 class="article-title">Who’s Hiring? Make an Impact With Communications and Marketing Roles</h4>
+            </a>
+          </div>
+          <div data-qa-id="four-article-highlight-section-1" class="article-section">
+            <div class="article-image">
+              <a href="/en/careers/template-toolbox-email-networking" tabindex="-1" aria-label="2 Email Templates for Networking | Template Toolbox" class="article-link">
+                <img src="./assets/img/team/team-2.jpg" srcset="./assets/img/team/team-2.jpg" alt="" width="190"  height="190" data-qa-id="four-article-highlight-section-image" class="article-img" loading="lazy">
+              </a>
+            </div>
+            <a href="/en/careers/template-toolbox-email-networking" class="article-link">
+              <h4 class="article-title">2 Email Templates for Networking | Template Toolbox</h4>
+            </a>
+          </div>
+          <div data-qa-id="four-article-highlight-section-2" class="article-section">
+            <div class="article-image">
+              <a href="/en/careers/navigating-student-loan-options-for-grad-school" tabindex="-1" aria-label="Navigating Student Loan Options for Grad School" class="article-link">
+                <img src="./assets/img/team/team-3.jpg" srcset="./assets/img/team/team-3.jpg" alt="" width="190" height="190" data-qa-id="four-article-highlight-section-image" class="article-img" loading="lazy">
+              </a>
+            </div>
+            <a href="/en/careers/navigating-student-loan-options-for-grad-school" class="article-link">
+              <h4 class="article-title">Navigating Student Loan Options for Grad School</h4>
+            </a>
+          </div>
+          <div data-qa-id="four-article-highlight-section-3" class="article-section">
+            <div class="article-image">
+              <a href="/en/careers/what-to-consider-when-choosing-a-graduate-school" tabindex="-1" aria-label="What to Consider When Choosing a Graduate School" class="article-link">
+                <img src="./assets/img/team/team-1.jpg" srcset="./assets/img/team/team-1.jpg" alt="" width="190" height="190" data-qa-id="four-article-highlight-section-image" class="article-img" loading="lazy">
+              </a>
+            </div>
+            <a href="/en/careers/what-to-consider-when-choosing-a-graduate-school" class="article-link">
+              <h4 class="article-title">What to Consider When Choosing a Graduate School</h4>
+            </a>
+          </div>
+          <div data-qa-id="four-article-highlight-section-3" class="article-section">
+            <div class="article-image">
+              <a href="/en/careers/what-to-consider-when-choosing-a-graduate-school" tabindex="-1" aria-label="What to Consider When Choosing a Graduate School" class="article-link">
+                <img src="./assets/img/team/team-1.jpg" srcset="./assets/img/team/team-1.jpg" alt="" width="190" height="190" data-qa-id="four-article-highlight-section-image" class="article-img" loading="lazy">
+              </a>
+            </div>
+            <a href="/en/careers/what-to-consider-when-choosing-a-graduate-school" class="article-link">
+              <h4 class="article-title">What to Consider When Choosing a Graduate School</h4>
+            </a>
+          </div>
+        </div>
+        <div class="read-more">
+          <a class="read-more-link primary medium" href="/en/careers?pq=">Read More</a>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div id="contact" class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-info">
+            <h3>We Connect</h3>
+            <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
+            <p>
+              A108 Adam Street <br>
+              NY 535022, USA<br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Squadfree</span></strong>. All Rights Reserved.
+      Designed by <a href="https://tanyaradzwa.com/">TMC</a>
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/ -->
+      
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- for form popup -->
+  <script>
+    // JavaScript for modal functionality
+    const modal = document.getElementById("jobModal");
+    const jobCards = document.querySelectorAll(".job-card");
+    const closeBtn = document.querySelector(".close");
+
+    jobCards.forEach(card => {
+        card.addEventListener("click", () => {
+            modal.style.display = "block";
+        });
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (event) => {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    });
+</script>
+
+</body>
+
+</html>
